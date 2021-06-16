@@ -1,0 +1,200 @@
+h1{
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+}
+.chicken{
+    
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+    padding: 0px 10px 10px 10px;
+    background-color: bisque;
+   
+}
+.chicken>h3{
+    display: block;
+    width: 80px;
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+    
+}
+
+.beef{
+    
+    width: 400px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+    padding: 0px 10px 10px 10px;
+    background-color: grey;
+    color: white;
+}
+.beef>h3{
+    display: block;
+    width: 80px;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+}
+
+.sushi{
+   
+    width: 400px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+    padding: 0px 10px 10px 10px;
+    background-color: pink;
+    color: brown;
+}
+.sushi>h3{
+    display: block;
+    width: 80px;
+    text-align: center;
+    background-color: blue;
+    color: rgb(130, 197, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    border-style: solid ;
+    border-color: black;
+    border-width: 3px;
+    
+}
+@media (min-width:992px) {
+    .chicken{
+        display: inline-block;
+    width: 400px;     
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top:30px;
+    }
+    .chicken>h3{
+        width: 80px;
+        margin-left: 327px;
+        margin-top: -3px;
+      
+    }
+    
+    .beef{  display: inline-block;
+        width: 400px;  
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top:30px;
+  
+    }
+    .beef>h3{
+        width: 80px;
+        margin-left: 327px;
+        margin-top: -3px;
+      
+    }
+    
+    .sushi{  display: inline-block;
+        width: 400px;  
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top:30px;
+      
+    }
+    .sushi>h3{
+        width: 80px;
+        margin-left: 327px;
+        margin-top: -3px;
+    
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .chicken{  display: inline-block;
+        width: 300px;     
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top:30px;
+        }
+        .chicken>h3{
+            width: 80px;
+            margin-left: 227px;
+            margin-top: -3px;
+          
+        }
+        
+        .beef{  display: inline-block;
+            width: 300px;  
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top:30px;
+      
+        }
+        .beef>h3{
+            width: 80px;
+            margin-left: 227px;
+            margin-top: -3px;
+          
+        }
+        
+        .sushi{  display: inline-block;
+            width:690px;  
+            margin-left: 60px;
+            margin-right: 30px;
+            margin-top:30px;
+          
+        }
+        .sushi>h3{
+            width: 80px;
+            margin-left: 617px;
+            margin-top: -3px;
+        
+        } 
+}
+@media (max-width:767px) {
+    .chicken{ display: block;
+        width: 400px;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        
+        
+        }
+        .chicken>h3{
+            width: 80px;
+            margin-left: 327px;
+            margin-top: -3px;
+          
+        }
+        
+        .beef{ display: block;
+            width: 400px;  
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:30px;
+      
+        }
+        .beef>h3{
+            width: 80px;
+            margin-left: 327px;
+            margin-top: -3px;
+          
+        }
+        
+        .sushi{ display: block;
+            width:400px;  
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:30px;
+          
+        }
+        .sushi>h3{
+            width: 80px;
+            margin-left: 327px;
+            margin-top: -3px;
+        
+        } 
+}
