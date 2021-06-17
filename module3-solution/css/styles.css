@@ -22,10 +22,9 @@ div.col-9{
   cursor: pointer;
 }
 
-.dropdown {
-  position: absolute;
- margin-left: 466px;
-
+.dropdown{
+position: absolute;
+margin-left:462px;
 }
 
 .dropdown-content {
