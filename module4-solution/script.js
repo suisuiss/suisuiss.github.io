@@ -1,3 +1,4 @@
+
 // ******************************* 
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -56,9 +57,9 @@ WARNING!!! WARNING!!!
       // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
       // name in the loop.
       if (firstLetter === 'j') {
-        console.log("Good Bye "+names[i]);
+        byeSpeaker.speak(names[i]);
       } else {
-        console.log("Hello"+names[i]);
+        helloSpeaker.speak(names[i]);
       }
     }
     
